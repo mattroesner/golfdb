@@ -9,6 +9,7 @@
         End If
         If a = 2 Then
             MsgBox("Login successful", MsgBoxStyle.Information)
+            main.Show()
         Else
             MsgBox("Username or Password Not Valid", MsgBoxStyle.Exclamation)
         End If
